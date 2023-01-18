@@ -8,5 +8,5 @@ export default defineConfig({
     footer: 'Powered by React Blocks Layout',
     name: 'react-blocks-layout',
   },
-  styles: ['.dumi-default-header-left { width: auto !important; min-width: 184px; padding-right: 50px; }']
+  styles: ['.dumi-default-header-left { width: auto !important; min-width: 184px; padding-right: 50px; } .dumi-default-hero-title { font-size: 100px !important; }']
 });
