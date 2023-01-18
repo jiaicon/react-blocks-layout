@@ -1,0 +1,65 @@
+.--resize {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  display: inline-block;
+  padding: 0 3px 3px 0;
+  box-sizing: border-box;
+  background: url(./imgs/arrow.png) no-repeat center center / cover;
+
+  &-n {
+    top: 0;
+    left: 50%;
+    cursor: n-resize;
+    transform: rotate(180deg) translateX(50%);
+  }
+
+  &-ne {
+    top: 0;
+    right: 0;
+    cursor: ne-resize;
+    transform: rotate(-135deg);
+  }
+
+  &-e {
+    top: 50%;
+    right: 0;
+    cursor: e-resize;
+    transform: rotate(-90deg) translateX(50%);
+  }
+
+  &-se {
+    bottom: 0;
+    right: 0;
+    cursor: se-resize;
+    transform: rotate(-45deg);
+  }
+
+  &-s {
+    bottom: 0;
+    left: 50%;
+    cursor: s-resize;
+    transform: translateX(-50%);
+  }
+
+  &-sw {
+    bottom: 0;
+    left: 0;
+    cursor: sw-resize;
+    transform: rotate(45deg);
+  }
+
+  &-w {
+    top: 50%;
+    left: 0;
+    cursor: w-resize;
+    transform: rotate(90deg) translateX(-50%);
+  }
+
+  &-nw {
+    top: 0;
+    left: 0;
+    cursor: nw-resize;
+    transform: rotate(135deg);
+  }
+}
