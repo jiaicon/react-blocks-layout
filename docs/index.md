@@ -1,22 +1,10 @@
 ---
 hero:
-  title: library
+  title: React Blocks Layout
   description: 基于 React 的拖拽布局
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
-features:
-  - title: Hello
-    emoji: 💎
-    description: Put hello description here
-  - title: World
-    emoji: 🌈
-    description: Put world description here
-  - title: '!'
-    emoji: 🚀
-    description: Put ! description here
+    - text: 介绍
+      link: /guide
+    - text: 文档
+      link: /doc
 ---
-
-react-blocks-layout
